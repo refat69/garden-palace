@@ -88,7 +88,7 @@ header h5 {
   color: #bc8d4b !important;
 }
 .banner {
-  background: url(../images/slider-3.jpg) no-repeat center / cover;
+  background: url(../images/house.jpg) no-repeat center / cover;
   padding: 350px 0;
 }
 .banner h1 {
@@ -126,7 +126,6 @@ header h5 {
   position: absolute;
 	bottom: 0;
 	left: 0;
-
 }
 .categ-name h2::after{
 	content: '';
@@ -137,26 +136,60 @@ header h5 {
 	bottom: -7px;
 	left: 0;
 }
-#about-me{
-  padding-top: 100px;
+#gallery{
+  padding-top:50px;
 }
-.view-more {
-  font-size: 12px;
-  letter-spacing: 1px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 30px;
-  padding: 10px 24px;
-  color: #373636;
-  border: 5px solid #000;
+.menu-post{
+  position: relative;
 }
-.view-more:hover {
+.gallery-img{
+  padding: 200px 0;
+  transition: transform 0.5s ease-in-out 0s;
+}
+.gallery-post:hover .gallery-img {
+ transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+}
+.menu-post-desc{
+	position: absolute;
+	z-index: 4;
+	text-align: center;
+	padding: 0 15px;
+	margin-left: 0;
+	width: 100%;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+  transition: 2s;
+  opacity: 0;
+}
+.menu-post-desc:hover{
+  opacity: 1;
   color: #fff;
-  background: #bc8d4b;
-  border: 5px solid #bc8d4b;
 }
-#about-us{
-  padding-top: 100px;
+.menu-post-desc h4 {
+  text-transform: uppercase;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 0;
+}
+.gallery-post::after {
+	content: '';
+	border: 1px solid rgba(255, 255, 255, 0.9);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 10px;
+  opacity: 0;
+}
+.gallery-post:hover::after{
+  opacity: 1;
 }
 footer{
   margin-top: 0 !important;

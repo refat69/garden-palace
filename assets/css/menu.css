@@ -88,7 +88,7 @@ header h5 {
   color: #bc8d4b !important;
 }
 .banner {
-  background: url(../images/slider-3.jpg) no-repeat center / cover;
+  background: url(../images/menu.jpg) no-repeat center / cover;
   padding: 350px 0;
 }
 .banner h1 {
@@ -137,26 +137,17 @@ header h5 {
 	bottom: -7px;
 	left: 0;
 }
-#about-me{
+#menu{
   padding-top: 100px;
 }
-.view-more {
-  font-size: 12px;
-  letter-spacing: 1px;
-  font-weight: 700;
+.item-name-price h5 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
   text-transform: uppercase;
-  margin-top: 30px;
-  padding: 10px 24px;
-  color: #373636;
-  border: 5px solid #000;
 }
-.view-more:hover {
-  color: #fff;
-  background: #bc8d4b;
-  border: 5px solid #bc8d4b;
-}
-#about-us{
-  padding-top: 100px;
+.item-name-price p {
+  letter-spacing: 2px;
 }
 footer{
   margin-top: 0 !important;

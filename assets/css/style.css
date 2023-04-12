@@ -12,7 +12,6 @@
     - Media Queries   */
 /* !genaral */
 @import url("https://fonts.googleapis.com/css2?family=Explora&family=Lato:wght@700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Explora&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -52,20 +51,17 @@ header {
     background: transparent !important;
     margin-top: 0 !important;
   }
+  .navbar-collapse {
+    background: #373636;
+  }
+  .navbar-toggler {
+  background-color: #e5e5e5;
+  }
 }
 @media (max-width: 1200px){
-  .navbar{
-    width: 100% !important;
-  }
   .slider-text {
-    top: -330px !important;
-    left: 4% !important;
+    display: none;
   }
-  .slider-text h1 {
-    font-size: 80px !important;
-    text-align: center;
-  }
-  
 }
 header h5 {
   font-size: 12px;
@@ -100,25 +96,13 @@ header h5 {
     padding-top: 55px;
   }
   .slider-text {
-    position: relative;
-    top: -570px;
-    left: 21%;
+    display: none;
   }
-  .slider-text {
-    top: -183px !important;
-    left: 4% !important;
-  }
-  .slider-text h1 {
-    font-size: 30px !important;
-    text-align: center;
-  }
-  .slider-text p {
-    font-size: 20px !important;
 }
 #home-contant{
 margin-top: 0 !important;
 }
-}
+
 .slider-text {
   position: relative;
   top: -570px;
@@ -362,3 +346,4 @@ footer {
 .footer-social li a:hover {
   color: #bc8d4b;
 }
+
