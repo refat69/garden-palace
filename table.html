@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>reservation</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link rel="stylesheet"
+        href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="assets/css/table.css">
+</head>
+<body>
+    <header>
+        <div class="row">
+          <div class="col-md-4 ">
+            <h5> 40 Park Ave, Brooklyn, <br> New York 70250 </h5>
+          </div>
+          <div class="col-md-4">
+            <div class="logo text-center">
+              <img src="assets/images/logo.png"
+                alt="">
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <h5 class="text-end "> Book Now <br> +1-222-333-444 </h5>
+          </div>
+        </div>
+      </header>
+      <nav class="navbar navbar-expand-md">
+        <div class="container">
+          <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse"
+            id="navbarNav">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link active"
+                  aria-current="page"
+                  href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                  href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                  href="about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                  href="table.html">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                  href="gallery.html">Gallery</a>
+              <li class="nav-item">
+                <a class="nav-link"
+                  href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                  href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section id="book-table">
+        <div class="table">
+         <h2 class="home-title">Open Hours</h2>
+        <p>Monday - Friday: 10 AM - 11 PM </p>
+        <p>Saturday - Sunday: 9 AM - 1 PM </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 offset-md-1">
+              <div class="page-holder custom-page-template">
+                <div class="categ-name">
+                  <h2 class="home-title  ">Make a reservation</h2>
+                </div>
+                <p class="text-center">You may make a reservation any time online or by calling (000) 111 2222 during our
+                  opening hours:</p>
+              </div>
+              <div class="reservation_txt">
+                <form>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Name*</label>
+                      <p><input type="text"
+                          class="reservation-fields"
+                          value=""
+                          aria-required="true"></p>
+                    </div>
+                    <div class="col-md-4">
+                      <label>Email*</label>
+                      <p><input type="text"
+                          name="email"
+                          class="reservation-fields"
+                          value=""
+                          aria-required="true"></p>
+                    </div>
+                    <div class="col-md-4">
+                      <label>Phone*</label>
+                      <p><input type="text"
+                          name="phone"
+                          class="reservation-fields"
+                          value=""
+                          aria-required="true"></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Date*</label>
+                      <p><input type="date"
+                          name="datepicker"
+                          id="datepicker"
+                          class="reservation-fields"
+                          value=""
+                          aria-required="true"
+                          aria-invalid="false"></p>
+                    </div>
+                    <div class="col-md-4">
+                      <label>Time*</label>
+                      <p>
+                        <select name="time"
+                          class="reservation-fields">
+                          <option value="09:00">09:00</option>
+                          <option value="10:00">10:00</option>
+                          <option value="11:00">11:00</option>
+                          <option value="12:00">12:00</option>
+                          <option value="13:00">13:00</option>
+                          <option value="14:00">14:00</option>
+                          <option value="15:00">15:00</option>
+                          <option value="16:00">16:00</option>
+                          <option value="17:00">17:00</option>
+                          <option value="18:00">18:00</option>
+                          <option value="19:00">19:00</option>
+                          <option value="20:00">20:00</option>
+                          <option value="21:00">21:00</option>
+                          <option value="22:00">22:00</option>
+                        </select>
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <label>Seats*</label>
+                      <p><input type="text"
+                          name="persons"
+                          class="reservation-fields"
+                          value=""
+                          aria-required="true"></p>
+                    </div>
+                  </div>
+                  <label>Special Requests</label>
+                  <p> <textarea name="message"
+                      id="message2"
+                      class="reservation-fields"
+                       ></textarea></p>
+                  <div class="button text-center mb-5">
+                    <a href="#"
+                      class="view-more">Book now</a>
+                  </div>
+                </form>
+            </div>
+            <div id="output"></div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="row ">
+            <div class="col-md-4">
+              <div class="footer-content">
+                <h5>ADDRESS:</h5>
+                <p>Gorden palace Restaurant <br>
+                  40 Park Ave, Brooklyn, New York 70250
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-content text-center">
+                <h5>RESERVATION:</h5>
+                <p>000-111-222 <br>
+                  contact@dina.com
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-content text-end">
+                <h5>OPEN HOURS:</h5>
+                <p>Monday - Friday: 10 AM - 11 PM <br>
+                  Saturday - Sunday: 9 AM - 1 PM
+                </p>
+              </div>
+            </div>
+          </div>
+          <ul class="footer-social">
+            <li><a class="social-facebook" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a class="social-twitter" href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="social-pinterest" href="#" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+            <li><a class="social-instagram" href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
